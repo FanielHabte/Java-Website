@@ -1,0 +1,129 @@
+
+.html{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+   
+
+}
+body{
+    background-color: black;
+    padding-right: 25%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.weatherApp-container{
+    display: block;
+    max-width: auto;
+    height: auto;
+    background-color: aquamarine;
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 20%;
+    margin-left: 20%; */
+    margin-top: 7%;
+    border-radius: 55px;
+}
+
+.searchBar-conatiner{
+    padding-top:50px;
+    text-align: center;
+    display: block;
+}
+.searchButton{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: black;
+}
+
+.search-bar{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px
+    
+}
+.searchBar-conatiner i {
+    padding-left: 15px;
+}
+
+.condition-container{
+    margin-top: 20px;
+}
+.condition-container i {
+    font-size: 100px;
+}
+.city{
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.temprature{
+    padding-top: 5px;
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    
+    padding-top: 15px;
+}
+.humudityWind-container{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+.h-Contdition i{
+    font-size: 40px;
+
+}
+.h-container{
+    display: flex;
+    column-gap: 5px;
+}
+.h-data{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7px;
+    padding-left: 2px;
+}
+.w-Contdition i {
+    font-size: 40px;
+}
+
+.w-container{
+    display: flex;
+    column-gap: 5px;
+
+}
+.w-data{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7px;
+    padding-left: 2px;
+}
+.h-name{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.w-name{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.condition{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@media (max-width:768px) {
+
+
+body {
+        background-color: black;
+        padding-right: 0%;
+    padding-left: 0%;
+        padding-top: 5%;
+    }
+
+}
