@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector(".city").innerHTML= data.name;
         var temprature = document.querySelector(".temprature").innerHTML= Math.round(data.main.temp)+ " °F";
         document.querySelector(".h-data").innerHTML= data.main.humidity +"%";
-        document.querySelector(".w-data").innerHTML= data.wind.speed + " miles/hr"
+        document.querySelector(".w-data").innerHTML= data.wind.speed + " mi/hr"
     ;
         document.querySelector(".condition").innerHTML= data.weather[0].description
         console.log(data);
